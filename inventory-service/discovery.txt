@@ -1,0 +1,5 @@
+Important points about Discovery server
+  1. Discovery server is a place where the ip address of the multiple instances of the microservices is available.
+  2. If a service made a call to the discovery server it the discovery server add this in its registery also known as service registry
+  3. If in-case the discovery server is not available for some reasons the first call to the discovery server make a local copy
+  of the discovery server in the service.
